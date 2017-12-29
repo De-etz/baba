@@ -17,15 +17,15 @@ if [ "$1" = "--help" ]; then
 elif [ "$1" = "--about" ]; then
   echo -e "
 
-        \033[31;47mJack Telegram Bot\033[0m
+        \033[31;47mBaba Ramdev Bot\033[0m
 
-         By Iman Daneshi
+         By Deetz
 
               \033[5mV $ver\033[0m
 
 A multi purpose Telegram bot written in MoonScript !
 
-Website: jack.seedteam.org
+Website: https://github.com/De-etz.git
 
 "
 elif [ "$1" = "--Update" ]; then
@@ -33,9 +33,9 @@ elif [ "$1" = "--Update" ]; then
 else
   echo -e "
 
-        \033[31;47mJack Telegram Bot\033[0m
+        \033[31;47mBaba Ramdev Bot\033[0m
 
-         By Iman Daneshi
+         By Deetz
 
               \033[5mV $ver\033[0m
 "
