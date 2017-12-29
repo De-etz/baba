@@ -1,4 +1,5 @@
 ver="1.0"
+cd ~/baba
 if [ "$1" = "--help" ]; then
   echo -e "
         \033[31;47mJack Telegram Bot\033[0m
@@ -40,7 +41,7 @@ else
               \033[5mV $ver\033[0m
 "
   while true; do
-    moon ~/baba/jackbot.moon "${@}"
+    moon jackbot.moon "${@}"
     sleep 10s
   done
 fi
